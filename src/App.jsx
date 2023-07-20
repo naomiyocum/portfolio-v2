@@ -1,10 +1,18 @@
+import React, { useState } from "react";
+import Navbar from "./components/Navbar";
+
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  function toggleDarkMode() {
+    setDarkMode((prevMode) => !prevMode);
+  }
+
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Welcome to Naomi's Portfolio V2
-      </h1>
-    </div>
+    <main className={darkMode ? "dark" : "light"}>
+      <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <h1>hehehehe</h1>
+    </main>
   );
 }
 
