@@ -77,3 +77,14 @@ main.light {
   color: #102a43;
   background-color: #f0f4f8;
 }
+
+/* PROJECT */
+.project.dark {
+  background-color: #102a43;
+  color: #f0f4f8;
+}
+
+.project.light {
+  color: #102a43;
+  background-color: #f0f4f8;
+}
