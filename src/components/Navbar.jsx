@@ -5,7 +5,7 @@ function Navbar(props) {
 
   return (
     <nav
-      className={`p-5 flex justify-between ${
+      className={`p-5 mb-5 flex justify-between ${
         props.darkMode ? "dark" : "light"
       }`}
     >
@@ -28,16 +28,16 @@ function Navbar(props) {
         </button>
 
         {isShown === true && (
-          <div className="flex flex-col justify-end space-y-3">
+          <div className="flex flex-col justify-end space-y-3 absolute">
+            <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
           </div>
         )}
       </div>
 
       <div>
-        <h1 className="text-3xl font-bold underline">Naomi Yocum</h1>
+        <h1 className="text-3xl font-bold">Naomi Yocum</h1>
       </div>
 
       <div className="toggler">

@@ -21,6 +21,12 @@
   box-sizing: content-box;
 }
 
+nav.dark .toggler--slider {
+  border-color: #f0f4f8;
+  background-color: #f0f4f8;
+  justify-content: flex-end;
+}
+
 .toggler--slider--circle {
   height: 16px;
   width: 16px;
@@ -51,11 +57,23 @@ nav.light {
 /* MAIN */
 
 main.dark {
-  background-color: #486581;
+  background-color: #102a43;
   color: #f0f4f8;
 }
 
 main.light {
+  color: #102a43;
+  background-color: #f0f4f8;
+}
+
+/* ABOUT */
+
+.about.dark {
+  background-color: #102a43;
+  color: #f0f4f8;
+}
+
+.about.light {
   color: #102a43;
   background-color: #f0f4f8;
 }

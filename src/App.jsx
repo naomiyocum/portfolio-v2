@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -11,7 +13,7 @@ function App() {
   return (
     <main className={darkMode ? "dark" : "light"}>
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <h1>hehehehe</h1>
+      <About darkMode={darkMode} />
     </main>
   );
 }
