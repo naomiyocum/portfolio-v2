@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* MAIN */
+
+main.dark {
+  background-color: #002b36;
+  color: #f0f4f8;
+}
+
+main.light {
+  color: #002b36;
+  background-color: #f0f4f8;
+}
+
+/* NAV */
+
 .toggler {
   display: flex;
   align-items: center;
@@ -10,14 +24,14 @@
 .toggler--slider {
   width: 32px;
   height: 16px;
-  background-color: #102a43;
+  background-color: #002b36;
   border-radius: 2rem;
   margin-inline: 7px;
   cursor: pointer;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid #102a43;
+  border: 1px solid #002b36;
   box-sizing: content-box;
 }
 
@@ -39,52 +53,52 @@ nav.light .toggler--slider--circle {
 }
 
 nav.dark .toggler--slider--circle {
-  background-color: #102a43;
+  background-color: #002b36;
 }
 
-/* NAV */
-
 nav.dark {
-  background-color: #102a43;
+  background-color: #002b36;
   color: #f0f4f8;
 }
 
 nav.light {
   background-color: #f0f4f8;
-  color: #102a43;
-}
-
-/* MAIN */
-
-main.dark {
-  background-color: #102a43;
-  color: #f0f4f8;
-}
-
-main.light {
-  color: #102a43;
-  background-color: #f0f4f8;
+  color: #002b36;
 }
 
 /* ABOUT */
 
 .about.dark {
-  background-color: #102a43;
+  background-color: #002b36;
   color: #f0f4f8;
 }
 
 .about.light {
-  color: #102a43;
+  color: #002b36;
   background-color: #f0f4f8;
 }
 
 /* PROJECT */
 .project.dark {
-  background-color: #102a43;
+  background-color: #002b36;
   color: #f0f4f8;
 }
 
 .project.light {
-  color: #102a43;
+  color: #002b36;
   background-color: #f0f4f8;
 }
+
+.project > .summary.light {
+  color: #d4e6f8;
+  background-color: #002b36;
+  border-color: #268bd2;
+}
+
+.project > .summary.dark {
+  color: #002b36;
+  background-color: #d4e6f8;
+  border-color: #268bd2;
+}
+
+/* #073642	 */

@@ -58,15 +58,6 @@ const mainProjects = [
       "Unsplash API",
     ],
   },
-  {
-    name: "Digital Business Card",
-    image: "digital-business-card.png",
-    github: "https://github.com/naomiyocum/digital-business-card",
-    live: "https://naomi-yocum-business-card.netlify.app/",
-    summary:
-      "Interested in learning frontend technologies, I started with a business card as my first solo project using React. It includes links to my socials and a brief about me section.",
-    technologies: ["HTML", "CSS", "React.js", "Netlify"],
-  },
 ];
 
 export default mainProjects;

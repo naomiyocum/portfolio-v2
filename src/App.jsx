@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import Project from "./components/Project";
 import mainProjects from "./data/mainProjects.jsx";
 
@@ -19,9 +20,10 @@ function App() {
     <main className={darkMode ? "dark" : "light"}>
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <About darkMode={darkMode} />
-      <section className="container mx-auto p-6 grid grid-cols-2 gap-5">
-        {mains}
-      </section>
+      <div className="container mx-auto p-6 grid grid-cols-2 gap-5">
+        <div>{mains}</div>
+        <Skills />
+      </div>
     </main>
   );
 }
