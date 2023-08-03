@@ -79,23 +79,23 @@ nav.light {
 }
 
 /* PROJECT */
-.project.dark {
+.all-projects.dark {
   background-color: #002b36;
   color: #f0f4f8;
 }
 
-.project.light {
+.all-projects.light {
   color: #002b36;
   background-color: #f0f4f8;
 }
 
-.project > .summary.light {
+.projects > .summary.light {
   color: #d4e6f8;
   background-color: #002b36;
   border-color: #268bd2;
 }
 
-.project > .summary.dark {
+.projects > .summary.dark {
   color: #002b36;
   background-color: #d4e6f8;
   border-color: #268bd2;

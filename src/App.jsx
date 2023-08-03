@@ -1,8 +1,5 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Project from "./components/Project";
-import mainProjects from "./data/mainProjects.jsx";
 
 function App() {
   // const mains = mainProjects.map((proj) => {

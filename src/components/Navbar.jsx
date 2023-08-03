@@ -2,16 +2,15 @@ import React, { useState } from "react";
 
 function Navbar() {
   const [isShown, setIsShown] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  const [mode, setMode] = useState("light");
 
-  function toggleDarkMode() {
-    setDarkMode((prevMode) => !prevMode);
+  function toggleMode() {
+    setMode(mode === "light" ? "dark" : "light");
+    localStorage.setItem("mode", mode);
   }
 
   return (
-    <nav
-      className={`p-5 mb-5 flex justify-between ${darkMode ? "dark" : "light"}`}
-    >
+    <nav className={`p-5 flex justify-between ${localStorage.getItem("mode")}`}>
       <div onMouseLeave={() => setIsShown(false)}>
         <button onMouseEnter={() => setIsShown(true)}>
           <svg
@@ -31,21 +30,20 @@ function Navbar() {
         </button>
 
         {isShown === true && (
-          <div className="flex flex-col justify-end space-y-3 absolute">
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
+          <div className="flex space-x-4 absolute">
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
           </div>
         )}
       </div>
 
       <div>
-        <h1 className="text-3xl font-bold">Naomi Yocum</h1>
+        <h1 className="text-3xl font-bold">Naomi</h1>
       </div>
 
       <div className="toggler">
         <p className="toggler--light"></p>
-        <div className="toggler--slider" onClick={toggleDarkMode}>
+        <div className="toggler--slider" onClick={toggleMode}>
           <div className="toggler--slider--circle"></div>
         </div>
         <p className="toggler--dark"></p>

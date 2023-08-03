@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-function Project(props) {
+function MainProject(props) {
   const [isShown, setIsShown] = useState(false);
 
   return (
     <>
       <div
-        className={`project ${props.darkMode ? "dark" : "light"} p-6`}
+        className={`project ${localStorage.getItem("mode")} p-6`}
         onMouseEnter={() => setIsShown(true)}
         onMouseLeave={() => setIsShown(false)}
       >
@@ -59,4 +59,4 @@ function Project(props) {
   );
 }
 
-export default Project;
+export default MainProject;
