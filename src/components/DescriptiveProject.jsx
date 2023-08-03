@@ -1,19 +1,24 @@
 import React, { useState } from "react";
 
 function MainProject(props) {
-  const [isShown, setIsShown] = useState(false);
-
   return (
     <>
       <div
-        className={`project ${localStorage.getItem("mode")} p-6`}
-        onMouseEnter={() => setIsShown(true)}
-        onMouseLeave={() => setIsShown(false)}
+        class={`${localStorage.getItem(
+          "mode"
+        )} second-layer max-w-sm rounded overflow-hidden shadow-lg border-2`}
       >
-        <div>
-          <img className="rounded-lg" src={`./src/images/${props.image}`} />
-          <h2 className="text-center text-xl">{props.name}</h2>
-          <section className="flex flex-row justify-center gap-3">
+        <img
+          class="w-full"
+          src={`./src/images/${props.image}`}
+          alt={props.name}
+        />
+        <div className="content-center">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">{props.name}</div>
+            <p class="second-text text-base">{props.summary}</p>
+          </div>
+          <div class="flex flex-row justify-center align-text-bottom gap-3 pb-3">
             <a href={props.github} target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,17 +48,8 @@ function MainProject(props) {
                 </svg>
               </a>
             )}
-          </section>
-        </div>
-        {isShown && (
-          <div
-            className={`project ${
-              props.darkMode ? "dark" : "light"
-            } p-2 m-2 summary border-solid border-2 rounded-lg`}
-          >
-            <p className="text-sm">{props.summary}</p>
           </div>
-        )}
+        </div>
       </div>
     </>
   );

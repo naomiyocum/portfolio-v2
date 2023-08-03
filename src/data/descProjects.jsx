@@ -5,7 +5,7 @@ const mainProjects = [
     github: "https://github.com/BruCycle/",
     live: "https://brucycle-fe.herokuapp.com/",
     summary:
-      "BrüCycle was developed to inspire users to choose a more eco-friendly mode of transportation. We track the users' biking exercise data via Strava. Users' accumulate beers in their BrüBank based on the Brügorithm - amount of miles and calories burned in rides completed and gas money saved.",
+      "BrüCycle was developed to inspire users to choose a more eco-friendly mode of transportation. We track the users' biking exercise data via Strava. Users' accumulate beers in their BrüBank based on the Brügorithm.",
     technologies: [
       "Ruby on Rails",
       "Bootstrap",
