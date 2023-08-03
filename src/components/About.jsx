@@ -1,8 +1,8 @@
 import React from "react";
 
-function About(props) {
+function About() {
   return (
-    <div className={`about mt-20 ${props.darkMode ? "dark" : "light"}`}>
+    <div className="about mt-20">
       <h2>Full-Stack Developer</h2>
     </div>
   );
