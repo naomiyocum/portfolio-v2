@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 
-function Navbar(props) {
+function Navbar() {
   const [isShown, setIsShown] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
+
+  function toggleDarkMode() {
+    setDarkMode((prevMode) => !prevMode);
+  }
 
   return (
     <nav
-      className={`p-5 mb-5 flex justify-between ${
-        props.darkMode ? "dark" : "light"
-      }`}
+      className={`p-5 mb-5 flex justify-between ${darkMode ? "dark" : "light"}`}
     >
       <div onMouseLeave={() => setIsShown(false)}>
         <button onMouseEnter={() => setIsShown(true)}>
@@ -42,7 +45,7 @@ function Navbar(props) {
 
       <div className="toggler">
         <p className="toggler--light"></p>
-        <div className="toggler--slider" onClick={props.toggleDarkMode}>
+        <div className="toggler--slider" onClick={toggleDarkMode}>
           <div className="toggler--slider--circle"></div>
         </div>
         <p className="toggler--dark"></p>
