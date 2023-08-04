@@ -34,7 +34,7 @@ const mainProjects = [
   },
   {
     name: "Portfolio V2",
-    image: "",
+    image: "../assets/images/portfolio-v2.png",
     github: "https://github.com/naomiyocum/portfolio-v2",
     live: "",
     summary: "Version 2 of my portfolio",

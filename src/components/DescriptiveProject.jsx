@@ -1,24 +1,38 @@
 import React, { useState } from "react";
 
-function MainProject(props) {
+function DescriptiveProject(props) {
+  const techs = props.technologies.map((tech) => {
+    return <span>{tech}</span>;
+  });
+
   return (
     <>
       <div
         class={`${localStorage.getItem(
           "mode"
-        )} second-layer max-w-sm rounded overflow-hidden shadow-lg border-2`}
+        )} second-layer grid grid-cols-2 px-20 static`}
       >
-        <img
-          class="w-full"
-          src={`./src/images/${props.image}`}
-          alt={props.name}
-        />
-        <div className="content-center">
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">{props.name}</div>
-            <p class="second-text text-base">{props.summary}</p>
+        <div className="max-w-2xl">
+          <img
+            class="desc-proj-img rounded-md"
+            src={`./src/images/${props.image}`}
+            alt={props.name}
+          />
+        </div>
+
+        <div className="grid content-center">
+          <div>
+            <div className="text-3xl mb-2 flex justify-end px-3">
+              {props.name}
+            </div>
+            <p className="desc-proj-summary second-text text-base p-3 rounded-sm">
+              {props.summary}
+            </p>
           </div>
-          <div class="flex flex-row justify-center align-text-bottom gap-3 pb-3">
+          <div className="flex flex-row justify-end gap-3 py-2 px-3 text-sm">
+            {techs}
+          </div>
+          <div className="flex flex-row justify-end align-text-bottom gap-3 py-2 px-3">
             <a href={props.github} target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,4 +69,4 @@ function MainProject(props) {
   );
 }
 
-export default MainProject;
+export default DescriptiveProject;

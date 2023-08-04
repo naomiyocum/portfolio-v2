@@ -16,6 +16,21 @@
   border-color: #000f08;
 }
 
+/* DESC PROJECTS */
+.desc-proj-img {
+  opacity: 0.5;
+  transition: opacity 1s, background 1s;
+}
+
+.desc-proj-img:hover {
+  opacity: 1;
+  transition: opacity 1s, background 1s;
+}
+
+.desc-proj-summary {
+  background-color: #122525;
+}
+
 /* BOX PROJECTS */
 .project-box {
   max-width: 15rem;
@@ -37,14 +52,6 @@
 
 .project-box:hover {
   top: -10px;
-}
-
-/* DESC PROJECTS */
-
-.second-layer {
-  background-color: #8baaad;
-  color: #000f08;
-  border-color: #8baaad;
 }
 
 .box-tech {
