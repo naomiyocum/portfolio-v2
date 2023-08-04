@@ -7,9 +7,7 @@ function BoxProject(props) {
 
   return (
     <div
-      className={`project-box ${localStorage.getItem(
-        "mode"
-      )} rounded p-2 px-3 relative`}
+      className="project-box rounded p-2 px-3 relative"
     >
       <div>
         <div className="flex justify-between">

@@ -2,15 +2,9 @@ import React, { useState } from "react";
 
 function Navbar() {
   const [isShown, setIsShown] = useState(false);
-  const [mode, setMode] = useState("light");
-
-  function toggleMode() {
-    setMode(mode === "light" ? "dark" : "light");
-    localStorage.setItem("mode", mode);
-  }
 
   return (
-    <nav className={`p-5 flex justify-between ${localStorage.getItem("mode")}`}>
+    <nav className="p-5 grid grid-cols-2">
       <div onMouseLeave={() => setIsShown(false)}>
         <button onMouseEnter={() => setIsShown(true)}>
           <svg
@@ -30,7 +24,7 @@ function Navbar() {
         </button>
 
         {isShown === true && (
-          <div className="flex space-x-4 absolute">
+          <div className="absolute">
             <a href="/about">About</a>
             <a href="/projects">Projects</a>
           </div>
@@ -39,14 +33,6 @@ function Navbar() {
 
       <div>
         <h1 className="text-3xl font-bold">Naomi</h1>
-      </div>
-
-      <div className="toggler">
-        <p className="toggler--light"></p>
-        <div className="toggler--slider" onClick={toggleMode}>
-          <div className="toggler--slider--circle"></div>
-        </div>
-        <p className="toggler--dark"></p>
       </div>
     </nav>
   );

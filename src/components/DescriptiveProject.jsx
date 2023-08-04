@@ -8,9 +8,7 @@ function DescriptiveProject(props) {
   return (
     <>
       <div
-        class={`${localStorage.getItem(
-          "mode"
-        )} second-layer grid grid-cols-2 px-20 static`}
+        class="second-layer grid grid-cols-2 px-20 static"
       >
         <div className="max-w-2xl">
           <img

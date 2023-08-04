@@ -4,15 +4,9 @@
 
 /* ALL */
 
-*.dark {
+body {
   background-color: #1c3738;
   color: #fafff8;
-  border-color: #000f08;
-}
-
-*.light {
-  color: #1c3738;
-  background-color: #fafff8;
   border-color: #000f08;
 }
 
@@ -38,14 +32,6 @@
   position: relative;
   top: 0;
   transition: top ease 0.5s;
-}
-
-.project-box.light {
-  background-color: #1c3738;
-  color: #fafff8;
-}
-
-.project-box.dark {
   background-color: #fafff8;
   color: #1c3738;
 }
@@ -57,46 +43,4 @@
 .box-tech {
   font-size: 0.6rem;
   background-color: #8baaad;
-}
-
-/* NAV TOGGLER */
-
-.toggler {
-  display: flex;
-  align-items: center;
-}
-
-.toggler--slider {
-  width: 32px;
-  height: 16px;
-  background-color: #1c3738;
-  border-radius: 2rem;
-  margin-inline: 7px;
-  cursor: pointer;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border: 1px solid #1c3738;
-  box-sizing: content-box;
-}
-
-nav.dark .toggler--slider {
-  border-color: #f0f4f8;
-  background-color: #f0f4f8;
-  justify-content: flex-end;
-}
-
-.toggler--slider--circle {
-  height: 16px;
-  width: 16px;
-  background-color: #f0f4f8;
-  border-radius: 50%;
-}
-
-nav.light .toggler--slider--circle {
-  background-color: #f0f4f8;
-}
-
-nav.dark .toggler--slider--circle {
-  background-color: #1c3738;
 }
