@@ -14,9 +14,10 @@ function Projects() {
   });
 
   return (
-    <div className={`all-projects ${localStorage.getItem("mode")}`}>
-      <h1>MY SHIT</h1>
+    <div className={`all-projects ${localStorage.getItem("mode")} pb-8`}>
+      <h2 className="py-10 pl-10 text-3xl">Cool Stuff I've Built</h2>
       <div className="flex flex-wrap gap-20 justify-center">{mains}</div>
+      <h2 className="py-10 pl-10 text-3xl">Other Notable Projects</h2>
       <div className="flex flex-wrap gap-5 justify-center m-5">{boxes}</div>
     </div>
   );

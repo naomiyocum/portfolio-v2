@@ -16,14 +16,30 @@
   border-color: #000f08;
 }
 
-/* PROJECTS */
-
+/* BOX PROJECTS */
 .project-box {
-  background-color: #1c3738;
-  color: #fafff8;
   max-width: 15rem;
   height: 14rem;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
 }
+
+.project-box.light {
+  background-color: #1c3738;
+  color: #fafff8;
+}
+
+.project-box.dark {
+  background-color: #fafff8;
+  color: #1c3738;
+}
+
+.project-box:hover {
+  top: -10px;
+}
+
+/* DESC PROJECTS */
 
 .second-layer {
   background-color: #8baaad;

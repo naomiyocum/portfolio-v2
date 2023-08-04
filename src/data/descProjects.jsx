@@ -1,7 +1,7 @@
 const mainProjects = [
   {
     name: "BrüCycle",
-    image: "brucycle.png",
+    image: "../assets/images/brucycle.png",
     github: "https://github.com/BruCycle/",
     live: "https://brucycle-fe.herokuapp.com/",
     summary:
@@ -17,7 +17,7 @@ const mainProjects = [
   },
   {
     name: "Bookworm",
-    image: "bookworm.png",
+    image: "../assets/images/bookworm.png",
     github: "https://github.com/Capstone-Bookworm",
     live: "https://bookworm-fe.vercel.app/",
     summary:
@@ -25,12 +25,20 @@ const mainProjects = [
     technologies: ["Ruby on Rails", "GraphQL", "CircleCI", "Postgres"],
   },
   {
+    name: "Viewing Party Lite",
+    image: "../assets/images/viewing-party-lite.png",
+    github: "https://github.com/naomiyocum/portfolio-v2",
+    live: "https://viewing-party-lite.fly.dev",
+    summary: "Explore movie options and create viewing parties with friends!",
+    technologies: ["Ruby on Rails", "Postgres", "Docker", "RSpec"],
+  },
+  {
     name: "Portfolio V2",
     image: "",
     github: "https://github.com/naomiyocum/portfolio-v2",
     live: "",
     summary: "Version 2 of my portfolio",
-    technologies: ["React.js", "TailwindCSS", "Vite", ,],
+    technologies: ["React.js", "TailwindCSS", "Vite"],
   },
 ];
 

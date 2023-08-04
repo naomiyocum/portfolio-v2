@@ -40,7 +40,7 @@ const otherProjects = [
     github: "https://github.com/naomiyocum/lunch_and_learn",
     live: "",
     summary:
-      "An API that allows users to search for cuisines by country, and provide opportunity to learn more about that country's culture.",
+      "An API that allows users to search for cuisines by country, and learn more about that country's culture.",
     technologies: ["Ruby on Rails", "Postgres", "REST APIs", "Postman"],
   },
 ];
