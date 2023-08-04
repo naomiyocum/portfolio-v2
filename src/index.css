@@ -16,10 +16,24 @@
   border-color: #000f08;
 }
 
+/* PROJECTS */
+
+.project-box {
+  background-color: #1c3738;
+  color: #fafff8;
+  max-width: 15rem;
+  height: 14rem;
+}
+
 .second-layer {
   background-color: #8baaad;
   color: #000f08;
   border-color: #8baaad;
+}
+
+.box-tech {
+  font-size: 0.6rem;
+  background-color: #8baaad;
 }
 
 /* NAV TOGGLER */

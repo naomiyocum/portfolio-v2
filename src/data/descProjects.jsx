@@ -25,38 +25,12 @@ const mainProjects = [
     technologies: ["Ruby on Rails", "GraphQL", "CircleCI", "Postgres"],
   },
   {
-    name: "Viewing Party Lite",
-    image: "viewing-party.png",
-    github: "https://github.com/naomiyocum/viewing_party_lite",
+    name: "Portfolio V2",
+    image: "",
+    github: "https://github.com/naomiyocum/portfolio-v2",
     live: "",
-    summary:
-      "An application in which users can explore movie options and create a viewing party event for themselves and other users of the application.",
-    technologies: [
-      "Ruby on Rails",
-      "AciveRecord",
-      "Postgres",
-      "HTML",
-      "CSS",
-      "The Movie DB API",
-    ],
-  },
-  {
-    name: "Lunch and Learn",
-    image: "landl.png",
-    github: "https://github.com/naomiyocum/lunch_and_learn",
-    live: "",
-    summary:
-      "An API that allows users to search for cuisines by country, and provide opportunity to learn more about that country's culture. This API also includes favoriting recipes and provides learning resources using YouTube and Unsplash.",
-    technologies: [
-      "Ruby on Rails",
-      "Postgres",
-      "REST APIs",
-      "Postman",
-      "RSpec",
-      "Edamam API",
-      "YouTube API",
-      "Unsplash API",
-    ],
+    summary: "Version 2 of my portfolio",
+    technologies: ["React.js", "TailwindCSS", "Vite", ,],
   },
 ];
 
