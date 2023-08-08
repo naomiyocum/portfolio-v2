@@ -5,19 +5,13 @@ import App from "./App.jsx";
 import Navbar from "./components/Navbar.jsx";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    // add children to add to root layout
-    // children: [
-    //   {
-    //     path: "about",
-    //     element: <About />,
-    //   },
-    // ],
   },
   {
     path: "about",
@@ -26,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "projects",
     element: <Projects />,
+  },
+  {
+    path: "contact",
+    element: <Contact />,
   },
 ]);
 

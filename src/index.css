@@ -8,6 +8,8 @@ body {
   background-color: #1c3738;
   color: #fafff8;
   border-color: #000f08;
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 0.5px;
 }
 
 /* DESC PROJECTS */
@@ -27,9 +29,7 @@ body {
 
 /* BOX PROJECTS */
 .project-box {
-  max-width: 15rem;
-  height: 14rem;
-  position: relative;
+  max-width: 16rem;
   top: 0;
   transition: top ease 0.5s;
   background-color: #fafff8;
@@ -43,4 +43,64 @@ body {
 .box-tech {
   font-size: 0.6rem;
   background-color: #8baaad;
+}
+
+/* NAVBAR */
+.nav-about:hover {
+  color: #a6cbcf;
+}
+
+.nav-projects:hover {
+  color: #a6cbcf;
+}
+
+.nav-contact:hover {
+  color: #a6cbcf;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c3738;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4d4847;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8baaad;
+}
+
+/* CONTACT */
+
+.say-hello {
+  transform: rotate(10deg);
+  font-family: "Rock 3D", cursive;
+  line-height: 14vw;
+  font-size: 8vw;
+}
+
+.haisai-mail:hover {
+  color: #a6cbcf;
+}
+
+.li-icon:hover {
+  color: #a6cbcf;
+}
+
+.twitter-icon:hover {
+  color: #a6cbcf;
+}
+
+.gh-icon:hover {
+  color: #a6cbcf;
+}
+
+.resume-icon:hover {
+  color: #a6cbcf;
 }

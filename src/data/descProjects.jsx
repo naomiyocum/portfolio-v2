@@ -16,15 +16,6 @@ const mainProjects = [
     ],
   },
   {
-    name: "Bookworm",
-    image: "../assets/images/bookworm.png",
-    github: "https://github.com/Capstone-Bookworm",
-    live: "https://bookworm-fe.vercel.app/",
-    summary:
-      "Bookworm connects you with a community of book lovers who are eager to share their favorite stories with one another. Simply swap books with members of our community and enjoy new stories for free!",
-    technologies: ["Ruby on Rails", "GraphQL", "CircleCI", "Postgres"],
-  },
-  {
     name: "Viewing Party Lite",
     image: "../assets/images/viewing-party-lite.png",
     github: "https://github.com/naomiyocum/portfolio-v2",
@@ -37,8 +28,18 @@ const mainProjects = [
     image: "../assets/images/portfolio-v2.png",
     github: "https://github.com/naomiyocum/portfolio-v2",
     live: "",
-    summary: "Version 2 of my portfolio",
+    summary:
+      "Version 2 of my portfolio - the site you're on right now! I really wanted to strengthen my skills with responsive design, React, and TailwindCSS.",
     technologies: ["React.js", "TailwindCSS", "Vite"],
+  },
+  {
+    name: "Bookworm",
+    image: "../assets/images/bookworm.png",
+    github: "https://github.com/Capstone-Bookworm",
+    live: "https://bookworm-fe.vercel.app/",
+    summary:
+      "Bookworm connects you with a community of book lovers who are eager to share their favorite stories with one another. Simply swap books with members of our community and enjoy new stories for free!",
+    technologies: ["Ruby on Rails", "GraphQL", "CircleCI", "Postgres"],
   },
 ];
 

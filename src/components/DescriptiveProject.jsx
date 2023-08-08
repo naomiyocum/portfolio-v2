@@ -7,9 +7,7 @@ function DescriptiveProject(props) {
 
   return (
     <>
-      <div
-        class="second-layer grid grid-cols-2 px-20 static"
-      >
+      <div class="second-layer grid grid-cols-2 px-20 static">
         <div className="max-w-2xl">
           <img
             class="desc-proj-img rounded-md"
@@ -19,11 +17,11 @@ function DescriptiveProject(props) {
         </div>
 
         <div className="grid content-center">
-          <div>
+          <div className="pl-5">
             <div className="text-3xl mb-2 flex justify-end px-3">
               {props.name}
             </div>
-            <p className="desc-proj-summary second-text text-base p-3 rounded-sm">
+            <p className="desc-proj-summary second-text text-base p-3 rounded-sm content-end text-right">
               {props.summary}
             </p>
           </div>

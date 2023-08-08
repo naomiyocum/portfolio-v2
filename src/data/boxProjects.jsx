@@ -40,8 +40,26 @@ const otherProjects = [
     github: "https://github.com/naomiyocum/lunch_and_learn",
     live: "",
     summary:
-      "An API that allows users to search for cuisines by country, and learn more about that country's culture.",
+      "An API that allows users to search for cuisines by country, and learn more about that country's culture. Created by aggregating data from 3 external APIs.",
     technologies: ["Ruby on Rails", "Postgres", "REST APIs", "Postman"],
+  },
+  {
+    name: "Litty Esty Shop",
+    image: "",
+    github: "https://github.com/naomiyocum/little-esty-shop",
+    live: "",
+    summary:
+      "A fictitious e-commerce platform built on a team of 4. I learned a lot about database modeling, MVC, and ActiveRecord.",
+    technologies: ["Ruby on Rails", "Postgres", "HTML", "CSS", "ActiveRecord"],
+  },
+  {
+    name: "Night Writer",
+    image: "",
+    github: "https://github.com/naomiyocum/night_writer",
+    live: "",
+    summary:
+      "A program that translates English to Braille and Braille back to English. I applied several enumerable techniques and learned the importance of test driven development.",
+    technologies: ["Ruby", "RSpec"],
   },
 ];
 

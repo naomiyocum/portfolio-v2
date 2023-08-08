@@ -18,7 +18,9 @@ function Projects() {
       <h2 className="py-10 pl-10 text-3xl">Cool Stuff I've Built</h2>
       <div className="flex flex-wrap gap-20 justify-center">{mains}</div>
       <h2 className="py-10 pl-10 text-3xl">Other Notable Projects</h2>
-      <div className="flex flex-wrap gap-5 justify-center m-5">{boxes}</div>
+      <div className="flex flex-wrap gap-8 px-5 justify-center m-5">
+        {boxes}
+      </div>
     </div>
   );
 }

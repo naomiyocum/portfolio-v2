@@ -6,9 +6,7 @@ function BoxProject(props) {
   });
 
   return (
-    <div
-      className="project-box rounded p-2 px-3 relative"
-    >
+    <div className="project-box rounded p-2 px-3 relative h-60">
       <div>
         <div className="flex justify-between">
           <div className="w-10 pb-2">
