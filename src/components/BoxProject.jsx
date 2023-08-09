@@ -6,7 +6,7 @@ function BoxProject(props) {
   });
 
   return (
-    <div className="project-box rounded p-2 px-3 relative h-60">
+    <div className="project-box rounded p-2 px-3 relative h-60 hover:-top-6">
       <div>
         <div className="flex justify-between">
           <div className="w-10 pb-2">

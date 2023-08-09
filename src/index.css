@@ -36,10 +36,6 @@ body {
   color: #1c3738;
 }
 
-.project-box:hover {
-  top: -10px;
-}
-
 .box-tech {
   font-size: 0.6rem;
   background-color: #8baaad;
@@ -68,12 +64,18 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #4d4847;
+  background: rgb(254 205 211);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #8baaad;
+}
+
+/* ABOUT */
+
+.about-link:hover {
+  color: #a6cbcf;
 }
 
 /* CONTACT */
