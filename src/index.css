@@ -27,6 +27,10 @@ body {
   background-color: #122525;
 }
 
+.proj-techs {
+  font-size: 0.55rem;
+}
+
 /* BOX PROJECTS */
 .project-box {
   max-width: 16rem;
@@ -57,6 +61,7 @@ body {
 /* SCROLLBAR */
 ::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -92,6 +97,12 @@ body {
 .profile-img:hover {
   filter: grayscale(0%);
   transition: filter 1s, background 1s;
+}
+
+.one-piece {
+  /* cursor: progress; */
+  cursor: url("../assets/images/luffy.webp"), auto;
+  /* cursor: url("../assets/images/chopper.png"), auto; */
 }
 
 /* CONTACT */
