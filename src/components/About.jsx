@@ -1,13 +1,18 @@
 import React from "react";
+import nomi from "../assets/images/nomi.jpg";
 
 function About() {
   return (
-    <div className="about md:grid md:grid-cols-2 flex flex-col gap-10 py-5">
-      <div className="pl-5">
+    <div className="about md:grid md:grid-cols-2 flex flex-col gap-10 py-5 px-2 md:pl-8">
+      <div className="md:pl-5 pl-0">
         <h2 className="text-2xl">Naomi Yocum</h2>
-        <h3 className="text-4xl pt-2">Full Stack Developer</h3>
+        <h3 className="text-4xl pt-2 pb-6">Full Stack Developer</h3>
+        <img
+          className="profile-img rounded-2xl md:max-w-md max-w-18"
+          src={nomi}
+        />
       </div>
-      <div className="px-12 text-lg">
+      <div className="pr-10 text-lg md:pt-16">
         <p>
           Thanks for checking out my page! A little about me:
           <br />

@@ -78,6 +78,20 @@ body {
   color: #a6cbcf;
 }
 
+.profile-img {
+  max-height: 80%;
+}
+
+.profile-img {
+  opacity: 0.5;
+  transition: opacity 1s, background 1s;
+}
+
+.profile-img:hover {
+  opacity: 1;
+  transition: opacity 1s, background 1s;
+}
+
 /* CONTACT */
 
 .say-hello {
