@@ -25,7 +25,7 @@ function About() {
           <br /> I'm currently a Technical Support Engineer at{" "}
           <a
             href="https://www.cdata.com/"
-            className="about-link hover:underline font-bold text-rose-200"
+            className="about-link hover:underline text-rose-200"
             target="_blank"
           >
             CData
@@ -35,7 +35,7 @@ function About() {
           find me contributing to{" "}
           <a
             href="https://github.com/rubyforgood"
-            className="about-link hover:underline font-bold text-rose-200"
+            className="about-link hover:underline text-rose-200"
             target="_blank"
           >
             Ruby For Good's
@@ -44,11 +44,12 @@ function About() {
           client based in Denver - goal is to become a full time Software
           Engineer!
           <br />
-          <br /> When I'm not at my desk, I'm typically catching up on One
-          Piece, cooking delicious meals, or exploring with my partner and dog,
-          Zuko (yes, his name is from Avatar...or Grease, depending on your age
-          😂). We moved to the triangle area in NC recently and would appreciate
-          any hiking/paddle boarding/
+          <br /> When I'm not at my desk, I'm typically catching up on{" "}
+          <span className="one-piece text-rose-200">One Piece</span>, cooking
+          delicious meals, or exploring with my partner and dog, Zuko (yes, his
+          name is from Avatar...or Grease, depending on your age 😂). We moved
+          to the triangle area in NC recently and would appreciate any
+          hiking/paddle boarding/
           <span className="font-bold">food</span> recs!
         </p>
       </div>

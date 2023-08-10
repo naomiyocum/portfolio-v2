@@ -100,9 +100,7 @@ body {
 }
 
 .one-piece {
-  /* cursor: progress; */
-  cursor: url("../assets/images/luffy.webp"), auto;
-  /* cursor: url("../assets/images/chopper.png"), auto; */
+  cursor: url("./assets/images/chopper.png"), auto;
 }
 
 /* CONTACT */
