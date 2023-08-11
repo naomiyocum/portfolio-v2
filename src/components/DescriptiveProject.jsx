@@ -7,8 +7,8 @@ function DescriptiveProject(props) {
 
   return (
     <div className="relative">
-      <div className="second-layer md:grid md:grid-cols-2 md:px-20">
-        <div className="max-w-2xl">
+      <div className="desc-proj-container lg:grid lg:grid-cols-2 lg:px-20">
+        <div className="img-container max-w-2xl">
           <img
             class="desc-proj-img rounded-md"
             src={`./src/images/${props.image}`}
@@ -16,19 +16,19 @@ function DescriptiveProject(props) {
           />
         </div>
 
-        <div className="md:grid md:content-center">
-          <div className="md:pl-5">
-            <div className="text-3xl mb-2 flex md:justify-end px-3">
+        <div className="content-container lg:grid lg:content-center">
+          <div className="lg:pl-5">
+            <div className="text-3xl mb-2 flex lg:justify-end px-3">
               {props.name}
             </div>
-            <p className="desc-proj-summary second-text text-base p-3 rounded-sm content-end md:text-right">
+            <p className="desc-proj-summary second-text text-base p-3 rounded-sm content-end lg:text-right">
               {props.summary}
             </p>
           </div>
-          <div className="proj-techs flex flex-row md:justify-end gap-3 py-2 px-3 text-xs md:text-sm">
+          <div className="proj-techs flex flex-row lg:justify-end gap-3 py-2 px-3 text-xs lg:text-sm">
             {techs}
           </div>
-          <div className="flex flex-row md:justify-end align-text-bottom gap-3 py-2 px-3">
+          <div className="flex flex-row lg:justify-end align-text-bottom gap-3 py-2 px-3">
             <a href={props.github} target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

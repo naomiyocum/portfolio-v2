@@ -24,15 +24,6 @@ const mainProjects = [
     technologies: ["Ruby on Rails", "Postgres", "Docker", "RSpec"],
   },
   {
-    name: "Portfolio V2",
-    image: "../assets/images/portfolio-v2.png",
-    github: "https://github.com/naomiyocum/portfolio-v2",
-    live: "",
-    summary:
-      "Version 2 of my portfolio - the site you're on right now! I really wanted to strengthen my skills with responsive design, React, and TailwindCSS.",
-    technologies: ["React.js", "TailwindCSS", "Vite"],
-  },
-  {
     name: "Bookworm",
     image: "../assets/images/bookworm.png",
     github: "https://github.com/Capstone-Bookworm",

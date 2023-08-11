@@ -12,7 +12,38 @@ body {
   letter-spacing: 0.5px;
 }
 
+/* MAIN PAGE */
+.main-pg {
+  font-family: "Rock 3D", cursive;
+  line-height: 15vw;
+  font-size: 9vw;
+}
+
+/* HELLOS */
+
+.hello-container {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hello-container span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: hello-container 120s linear infinite;
+}
+
+@keyframes hello-container {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
 /* DESC PROJECTS */
+
 .desc-proj-img {
   opacity: 0.5;
   transition: opacity 1s, background 1s;

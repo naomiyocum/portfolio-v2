@@ -1,7 +1,13 @@
 const otherProjects = [
   {
+    name: "Portfolio V2",
+    live: "",
+    summary:
+      "Version 2 of my portfolio - the site you're on right now! I really wanted to strengthen my skills with responsive design, React, and TailwindCSS.",
+    technologies: ["React.js", "TailwindCSS", "Vite"],
+  },
+  {
     name: "Battleship",
-    image: "",
     github: "https://github.com/naomiyocum/battleship",
     live: "",
     summary:
@@ -19,7 +25,6 @@ const otherProjects = [
   },
   {
     name: "War or Peace",
-    image: "",
     github: "https://github.com/naomiyocum/war_or_peace",
     live: "",
     summary:
@@ -28,7 +33,6 @@ const otherProjects = [
   },
   {
     name: "Portfolio V1",
-    image: "",
     github: "https://github.com/naomiyocum/portfolio",
     live: "https://naomiyocum.github.io/portfolio/",
     summary: "The first version of my portfio deployed using GitHub Pages!",
@@ -45,7 +49,6 @@ const otherProjects = [
   },
   {
     name: "Litty Esty Shop",
-    image: "",
     github: "https://github.com/naomiyocum/little-esty-shop",
     live: "",
     summary:
@@ -54,7 +57,6 @@ const otherProjects = [
   },
   {
     name: "Night Writer",
-    image: "",
     github: "https://github.com/naomiyocum/night_writer",
     live: "",
     summary:
