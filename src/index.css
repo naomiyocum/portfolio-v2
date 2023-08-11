@@ -6,7 +6,7 @@
 
 body {
   background-color: #1c3738;
-  color: #fafff8;
+  color: #f4fff8;
   border-color: #000f08;
   font-family: "Oxygen", sans-serif;
   letter-spacing: 0.5px;
@@ -108,8 +108,8 @@ body {
 .say-hello {
   transform: rotate(10deg);
   font-family: "Rock 3D", cursive;
-  line-height: 14vw;
-  font-size: 8vw;
+  line-height: 17vw;
+  font-size: 11vw;
 }
 
 .haisai-mail:hover {
