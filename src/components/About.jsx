@@ -7,7 +7,7 @@ function About() {
       <div className="about lg:flex lg:flex-row flex flex-col gap-10 pt-3 px-2 md:pl-8">
         <div className="md:pl-5 pl-0">
           <h2 className="text-2xl">
-            Naomi Yocum <span className="text-xs">she/her</span>
+            Naomi Yocum <span className="text-xs about-link">she/her</span>
           </h2>
           <h3 className="text-4xl pt-2 pb-6">Full Stack Developer</h3>
           <img className="profile-img rounded-2xl max-w-sm" src={nomi} />
@@ -54,7 +54,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="all-skills mt-5 px-4 lg:mt-5 md:flex md:flex-row md:justify-center md:gap-10">
+      <div className="all-skills my-5 px-4 lg:mt-5 md:flex md:flex-row md:justify-center md:gap-10">
         <h4 className="skills-main-title font-bold pl-2 md:mt-6">SKILLS</h4>
         <div className="skills-container grid grid-cols-2 pl-6 md:flex md:flex-row justify-center gap-10 my-6">
           <div>
@@ -100,6 +100,7 @@ function About() {
                   176 WPM
                 </a>
               </li>
+              <li>Eat 30+ nigiri in one sitting</li>
             </ul>
           </div>
         </div>

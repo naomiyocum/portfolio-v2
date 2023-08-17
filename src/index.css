@@ -5,7 +5,7 @@
 /* ALL */
 
 body {
-  background-color: #1c3738;
+  background-color: #02353c;
   color: #f4fff8;
   border-color: #000f08;
   font-family: "Oxygen", sans-serif;
@@ -13,7 +13,7 @@ body {
 }
 
 .all-link:hover {
-  color: rgb(255, 158, 211);
+  color: rgb(252, 204, 231);
 }
 
 /* MAIN PAGE */
@@ -29,7 +29,7 @@ body {
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
-  color: #74b03b;
+  color: #3fd0c9;
 }
 
 .hello-container span {
@@ -78,7 +78,7 @@ body {
 
 .box-tech {
   font-size: 0.6rem;
-  background-color: #74b03b;
+  background-color: #3fd0c9;
 }
 
 /* SCROLLBAR */
@@ -92,18 +92,18 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(255, 158, 211);
+  background: #3fd0c9;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #74b03b;
+  background: rgb(252, 204, 231);
 }
 
 /* ABOUT */
 
 .about-link {
-  color: #74b03b;
+  color: #3fd0c9;
 }
 
 .profile-img {
@@ -123,7 +123,7 @@ body {
 }
 
 .skills-main-title {
-  color: #74b03b;
+  color: #3fd0c9;
 }
 
 /* CONTACT */
@@ -133,9 +133,9 @@ body {
   font-family: "Rock 3D", cursive;
   line-height: 17vw;
   font-size: 11vw;
-  color: #74b03b;
+  color: #3fd0c9;
 }
 
 .contact-border {
-  border-color: #74b03b;
+  border-color: #3fd0c9;
 }
