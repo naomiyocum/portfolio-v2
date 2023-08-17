@@ -3,8 +3,8 @@ import React from "react";
 function Contact() {
   return (
     <div className="flex flex-col pt-20 gap-20 items-center align-center px-2 md:flex-row md:justify-around">
-      <div className="flex flex-row justify-around border-2 p-4 w-64 md:flex-col md:gap-12 md:p-8 md:h-96 md:w-28 border-rose-200 rounded-full">
-        <div className="li-icon">
+      <div className="contact-border flex flex-row justify-around border-2 p-4 w-64 md:flex-col md:gap-12 md:p-8 md:h-96 md:w-28 rounded-full">
+        <div className="all-link">
           <a href="https://www.linkedin.com/in/naomiyocum/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@ function Contact() {
             </svg>
           </a>
         </div>
-        <div className="twitter-icon">
+        <div className="all-link">
           <a href="https://twitter.com/6nomi4" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ function Contact() {
             </svg>
           </a>
         </div>
-        <div className="gh-icon">
+        <div className="all-link">
           <a href="https://www.github.com/naomiyocum" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ function Contact() {
             </svg>
           </a>
         </div>
-        <div className="resume-icon">
+        <div className="all-link">
           <a href="../src/assets/Yocum Resume.pdf" target="_blank">
             <svg
               className="pl-0 w-6 md:w-10"
@@ -57,11 +57,11 @@ function Contact() {
         </div>
       </div>
       <div className="contact-greeting">
-        <div className="say-hello text-rose-200">
+        <div className="say-hello">
           <p>Say Hello</p>
           <p>
             ハイサイ
-            <span className="haisai-mail inline-block pl-6 md:pl-8 w-16 md:w-24 lg:w-28">
+            <span className="all-link inline-block pl-6 md:pl-8 w-16 md:w-24 lg:w-28">
               <a href="mailto:naomiyocum24@gmail.com?Subject=ハイサイ">
                 <svg
                   data-name="1-Email"

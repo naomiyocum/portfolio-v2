@@ -8,7 +8,7 @@ function Hello() {
 
   return (
     <p className="hello-container">
-      <span className="hello text-3xl mt-6 text-rose-200">{hellos}</span>
+      <span className="hello text-3xl mt-6">{hellos}</span>
     </p>
   );
 }

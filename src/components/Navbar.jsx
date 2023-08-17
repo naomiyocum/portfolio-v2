@@ -11,13 +11,13 @@ function Navbar() {
       </div>
 
       <div className="p-5 flex flex-row gap-5 text-sm sm:text-lg">
-        <a className="nav-about" href="/about">
+        <a className="all-link" href="/about">
           About
         </a>
-        <a className="nav-projects" href="/projects">
+        <a className="all-link" href="/projects">
           Projects
         </a>
-        <a className="nav-contact" href="/contact">
+        <a className="all-link" href="/contact">
           Contact
         </a>
       </div>

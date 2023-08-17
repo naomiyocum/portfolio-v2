@@ -12,6 +12,10 @@ body {
   letter-spacing: 0.5px;
 }
 
+.all-link:hover {
+  color: rgb(255, 158, 211);
+}
+
 /* MAIN PAGE */
 .main-pg {
   font-family: "Rock 3D", cursive;
@@ -25,12 +29,13 @@ body {
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
+  color: #74b03b;
 }
 
 .hello-container span {
   display: inline-block;
   padding-left: 100%;
-  animation: hello-container 120s linear infinite;
+  animation: hello-container 80s linear infinite;
 }
 
 @keyframes hello-container {
@@ -73,20 +78,7 @@ body {
 
 .box-tech {
   font-size: 0.6rem;
-  background-color: #8baaad;
-}
-
-/* NAVBAR */
-.nav-about:hover {
-  color: #a6cbcf;
-}
-
-.nav-projects:hover {
-  color: #a6cbcf;
-}
-
-.nav-contact:hover {
-  color: #a6cbcf;
+  background-color: #74b03b;
 }
 
 /* SCROLLBAR */
@@ -100,26 +92,22 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(254 205 211);
+  background: rgb(255, 158, 211);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #8baaad;
+  background: #74b03b;
 }
 
 /* ABOUT */
 
-.about-link:hover {
-  color: #a6cbcf;
-  text-decoration: line;
+.about-link {
+  color: #74b03b;
 }
 
 .profile-img {
-  max-height: 80%;
-}
-
-.profile-img {
+  max-height: 75%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: filter 1s, background 1s;
@@ -134,6 +122,10 @@ body {
   cursor: url("./assets/images/chopper.png"), auto;
 }
 
+.skills-main-title {
+  color: #74b03b;
+}
+
 /* CONTACT */
 
 .say-hello {
@@ -141,24 +133,9 @@ body {
   font-family: "Rock 3D", cursive;
   line-height: 17vw;
   font-size: 11vw;
+  color: #74b03b;
 }
 
-.haisai-mail:hover {
-  color: #a6cbcf;
-}
-
-.li-icon:hover {
-  color: #a6cbcf;
-}
-
-.twitter-icon:hover {
-  color: #a6cbcf;
-}
-
-.gh-icon:hover {
-  color: #a6cbcf;
-}
-
-.resume-icon:hover {
-  color: #a6cbcf;
+.contact-border {
+  border-color: #74b03b;
 }
