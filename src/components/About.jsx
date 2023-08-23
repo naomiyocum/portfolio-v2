@@ -31,9 +31,9 @@ function About() {
             >
               CData
             </a>{" "}
-            - working hard at answering customer queries and extensively
-            researching through documentation and Google. Outside of work, you
-            can find me contributing to{" "}
+            - working hard at resolving customers' issues and extensively
+            researching through documentation. Outside of work, you can find me
+            contributing to{" "}
             <a
               href="https://github.com/rubyforgood"
               className="about-link all-link hover:underline"
@@ -42,7 +42,7 @@ function About() {
               Ruby For Good's
             </a>{" "}
             Open Source projects and collaborating on a freelancing project for
-            a client based in Denver - goal is to become a full time Software
+            a client based in Denver. My goal is to become a full time Software
             Engineer!
             <br />
             <br /> When I'm not at my desk, I'm typically catching up on{" "}
