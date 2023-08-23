@@ -14,7 +14,7 @@ function Projects() {
   });
 
   return (
-    <div className="all-projects pb-8">
+    <div className="all-projects pb-8 mt-20">
       <h2 className="py-10 pl-10 text-3xl">Cool Stuff I've Built</h2>
       <div className="flex flex-wrap gap-20 justify-center">{mains}</div>
       <h2 className="py-10 pl-10 text-3xl">Other Notable Projects</h2>

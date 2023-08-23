@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="flex flex-col pt-20 gap-20 items-center align-center px-2 md:flex-row md:justify-around">
+    <div className="flex flex-col pt-20 gap-20 items-center align-center px-2 mt-10 md:flex-row md:justify-around">
       <div className="contact-border flex flex-row justify-around border-2 p-4 w-40 md:flex-col md:gap-12 md:p-8 md:h-72 md:w-28 rounded-full">
         <div className="all-link">
           <a href="https://www.linkedin.com/in/naomiyocum/" target="_blank">

@@ -23,6 +23,10 @@ body {
   font-size: 9vw;
 }
 
+.pronouns {
+  font-family: "Oxygen", sans-serif;
+}
+
 /* HELLOS */
 
 .hello-container {

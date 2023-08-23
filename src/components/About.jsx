@@ -4,13 +4,13 @@ import nomi from "../assets/images/nomi.jpg";
 function About() {
   return (
     <>
-      <div className="about lg:flex lg:flex-row flex flex-col gap-10 pt-3 px-2 md:pl-8">
+      <div className="about lg:flex lg:flex-row flex flex-col gap-10 pt-3 px-2 mt-20 md:pl-8">
         <div className="md:pl-5 pl-0">
-          <h2 className="text-2xl">
-            Naomi Yocum <span className="text-xs about-link">she/her</span>
-          </h2>
-          <h3 className="text-4xl pt-2 pb-6">Full Stack Developer</h3>
-          <img className="profile-img rounded-2xl max-w-sm" src={nomi} />
+          <h3 className="text-3xl pt-2 pb-6">Full Stack Developer</h3>
+          <img
+            className="profile-img rounded-2xl mx-auto md:max-w-sm"
+            src={nomi}
+          />
         </div>
         <div className="text-lg px-4 lg:pt-24">
           <p>
